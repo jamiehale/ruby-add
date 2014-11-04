@@ -9,4 +9,8 @@ describe 'array element adder' do
     expect( sum_elements( [] ) ).to eq( 0.0 )
   end
   
+  it 'should return the first element for a single element array' do
+    expect( sum_elements( [ 3.1415926 ] ) ).to eq( 3.1415926 )
+  end
+  
 end
