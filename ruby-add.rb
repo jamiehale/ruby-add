@@ -1,7 +1,11 @@
 
 def sum_elements( input )
   return [ 0.0, 0.0 ] if input.empty?
-  [ input[ 0 ], 0.0 ]
+  result = 0.0
+  input.each do |element|
+    result = element
+  end
+  [ result, 0.0 ]
 end
 
 describe 'array element adder' do
