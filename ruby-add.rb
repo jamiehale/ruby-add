@@ -3,7 +3,10 @@ def sum_elements( input )
   sum = 0.0
   c = 0.0
   input.each do |element|
-    sum = element
+    y = element - c
+    t = sum + y
+    c = ( t - sum ) - y
+    sum = t
   end
   [ sum, c ]
 end
