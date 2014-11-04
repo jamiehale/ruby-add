@@ -1,6 +1,5 @@
 
 def sum_elements( input )
-  return [ 0.0, 0.0 ] if input.empty?
   result = 0.0
   input.each do |element|
     result = element
