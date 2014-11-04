@@ -1,7 +1,7 @@
 
 def sum_elements( input )
   return [ 0.0, 0.0 ] if input.empty?
-  [ 3.1415926, 0.0 ]
+  [ input[ 0 ], 0.0 ]
 end
 
 describe 'array element adder' do
