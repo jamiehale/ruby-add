@@ -1,4 +1,8 @@
 
+def sum_elements( input )
+  0.0
+end
+
 describe 'array element adder' do
   
   it 'should return 0.0 for an empty input' do
