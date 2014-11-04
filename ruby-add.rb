@@ -30,3 +30,11 @@ describe 'array element adder' do
   end
   
 end
+
+def dump( input )
+  sum, c = sum_elements( input )
+  puts "sum of #{input} = #{sum} with resulting compensation = #{c}"
+end
+
+dump( [ 1.0, 1e100, -1e100 ] )
+dump( [ 1e100, -1e100, 1.0 ] )
