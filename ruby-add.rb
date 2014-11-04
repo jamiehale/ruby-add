@@ -1,11 +1,11 @@
 
 def sum_elements( input )
-  result = 0.0
+  sum = 0.0
   c = 0.0
   input.each do |element|
-    result = element
+    sum = element
   end
-  [ result, c ]
+  [ sum, c ]
 end
 
 describe 'array element adder' do
