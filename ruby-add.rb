@@ -25,4 +25,8 @@ describe 'array element adder' do
     expect( sum_elements( [ 10000.0, 3.14159 ] ) ).to eq( [ 10003.14159, -7.309708394132031e-13 ] )
   end
   
+  it 'should return 10005.85987 and 2.282618538629322e-13 for the second step in the wikipedia example' do
+    expect( sum_elements( [ 10000.0, 3.14159, 2.71828 ] ) ).to eq( [ 10005.85987, 2.282618538629322e-13 ] )
+  end
+  
 end
